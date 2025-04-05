@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rodape final</title>
+    <style>
+        html, body{
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .principal{
+            flex: 1; /*empurra o footer o maximo para baixo*/
+            background:rgb(255, 225, 186);
+
+        }
+        .rodape{
+            background-color: brown;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <main class="principal">
+            <div>
+                <h1>Rodapé</h1>
+                <p>Se o conteúdo for menor que a altura da tela, o footer vai aparecer fixada no final da anela. se for maior, ele aparecerá após todo o conteúdo</p>
+            </div>
+        </main>
+
+        <footer class="rodape"> k. Florencio - todos os direitos reservados</footer>
+    </div>
+    
+</body>
+</html>

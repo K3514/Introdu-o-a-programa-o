@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2</title>
+    <style>
+        body{
+            background-color: rgb(231, 231, 231);
+            background-size: cover;
+        }
+        .caixa1{
+            overflow: scroll; /*barra de rolagem do mouse*/
+            width: 200px;/*tamanho maximo da caixa*/
+            height: 100px;/*largura da caixa*/
+            display: inline-block;
+            border: 10px solid;/*borda solida de 5px*/
+            border-radius: 10px;/*arredondamento*/
+            background-color: antiquewhite;/*cor clara para a visualização*/
+            margin: 20px;/*cria espaço externo de 20px em todos os lados*/
+            padding: 40px;
+            background-image: url(steve.png);
+        }
+        .caixa2{
+            overflow:visible;
+            width: 600px;
+            height: 150px;
+            display: inline-flex;
+            border: 5px solid black;
+            border-radius: 6%;
+            margin-top: 40px;
+            margin-right: 51px;
+            margin-bottom: 15px;
+            margin-left: 35px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="caixa1">
+        <h1>Gabriela</h1>
+        <p>O amor não se prova, nem se mede. É como Gabriela.</p> 
+        <p>Existe, isso basta (...) O facto de não se compreender ou explicar uma coisa não acaba com ela.</p> 
+        <p>Nada sei das estrelas, mas as vejo no céu, são a beleza da noite.</p>
+    </div>
+    <div class="caixa2">
+        <h1>Gabriela</h1>
+        <p>O amor não se prova, nem se mede. É como Gabriela.Existe, isso basta (...) O facto de não se compreender ou explicar uma coisa não acaba com ela. Nada sei das estrelas, mas as vejo no céu, são a beleza da noite.</p>
+
+    </div>
+</body>
+</html>

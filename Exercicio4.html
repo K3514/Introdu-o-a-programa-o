@@ -3,29 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicio 3</title>
+    <title>Menu vertical</title>
     <style>
         .corpo{
             margin: 0;
-            font-family:'Times New Roman', Times, serif
+            font-family:'Times New Roman', Times, serif;
+            background-color: rgba(95, 158, 160, 0.63);
         }
         .topo{
             background-color: rgba(158, 58, 0, 0.89); 
             padding: 10px 0;
+            padding: top 20px;
+            position: fixed;
         }
         .menu{
-            display:flex;
-            justify-content:right;
+            width: 100px;
+            background-color: black;
+            padding-top: 20px;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
         }
         .menu a{
-            color:white;
+            display: block;
+            color:rgb(255, 237, 237);
             padding: 5px 20px; 
             transition:background 0.3s;
+            border-bottom: 1px rgb(9, 241, 48);
+            text-decoration:none;
         }
         .menu a:hover{
-            background-color: rgb(114, 46, 1);
+            background-color:rgb(204, 182, 182)
         }
         .texto{
+            text-align: center;
             justify-content: center;
         }
         .rodape{
@@ -33,11 +45,21 @@
             bottom: 0%;
             left: 0;
             width: 100%;
-            background: rgb(158, 58, 0);
-            color: black;
+            background: rgb(0, 0, 0);
+            color: white;
             text-align: center;
             padding: 10px 0;
         }
+        p{
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+        }
+        li{
+            text-align: center;
+        }
+        
     </style>
 </head>
 <body class="corpo">
@@ -51,7 +73,7 @@
     </header>
     <div class="texto">
         <h1>Gabriela cravo e canela</h1>
-        <p>O romance entre o sírio Nacib e a mulata Gabriela, um dos mais sedutores personagens femininos criados por Jorge Amado, tem como pano de fundo, em meados dos anos 1920, a luta pela modernização de Ilhéus, em desenvolvimento graças às exportações do cacau. Com sua sensualidade inocente, Gabriela não apenas conquista o coração de Nacib como também seduz um sem-número de homens ilheuense, colocando em xeque a lei que exigia que a desonra do adultério feminino fosse lavada com sangue. Publicado em 1958, o livro logo se tornou um sucesso mundial. Na televisão, a história se transformou numa das novelas brasileiras mais aclamadas mundo afora.</p>
+        <p>O romance entre o sírio Nacib e a mulata Gabriela, um dos mais sedutores personagens femininos criados por Jorge Amado</p>
     </div>
     <footer class="rodape"> K. Florencio - todos os direitos reservados</footer>
     <h3>personagens Principais</h3>
@@ -63,6 +85,7 @@
     <p>"O amor não se prova, nem se mede. É como Gabriela.</p> 
     <p>Existe, isso basta (...) O facto de não se compreender ou explicar uma coisa não acaba com ela.</p> 
     <p> Nada sei das estrelas, mas as vejo no céu, são a beleza da noite".</p>
+    
 
 </body>
 </html>

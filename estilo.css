@@ -1,0 +1,87 @@
+/* o '*' muda tudo*/
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+
+/* estilo do cabeçalho*/
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: beige; /*cor de fundo*/
+    color: rgb(0, 0, 0); /*cor da letra do site*/
+    background-image: url(tec.jpg);
+    background-size: cover;
+}
+
+/*cabeçalho e navegação*/
+header{
+    background-color: rgb(196, 220, 252); /*cora da barra de menu*/
+    padding: 10px 0; /*tamanho da barra de menu*/
+}
+header nav ul{
+    list-style: none; /*deixa o texto sem ser em formato de lista*/
+    text-align: center; /*alinha o texto no centro*/
+}
+header nav ul li{
+    display: inline-block;margin: 0 20px; /*espaço entre as palavras*/
+}
+header nav ul li a{
+    color: rgb(0, 0, 0); /*cor da letra do menu*/
+    text-decoration: none; /*tira o sublinhado das palavras*/
+    font-size: 18px; /*tamanho da letra do menu*/
+}
+header nav ul li a:hover{
+    color: rgb(0, 102, 255); /*cor que aparece quando coloca o mause por cima*/
+}
+/*Estilização do Início*/
+.ini-section{
+    text-align: center;
+    color: rgb(255, 254, 254);
+    height: 60vh; /*diferença de altura entre as frases*/
+    display:flex; /*permite controlar o posicionamneto e o espaçamento dos elementos*/
+    flex-direction: column; /*deixar os texto em coluna*/
+    justify-content:center; /*deixar no centro da tela*/
+    align-items: center;
+    padding: 20px;
+}
+.ini-section h1{
+    font-size: 48px;
+    margin-bottom: 20px; /*espaçamento de h1 para o botão*/
+}
+.ini-section p{
+    font-size: 20px;
+    margin-bottom: 20px; /*espaçamento de p para o botão*/
+    max-width: 600px; /*largura maxima do paragrafo*/
+}
+.cta-button{
+    background-color:rgb(196, 220, 252);
+    color:black;
+    text-decoration: none;
+    padding: 15px 30px; /*tamanho do botão*/
+    border-radius: 5px; /*borda do botão*/
+    font-weight: bold; /*negrito*/
+    transition: background-color 0.5s; /*quanto tempo para a cor de destaque aparecer*/
+    letter-spacing:0.6px; /*espaço entre as letras*/
+}
+.cta-button:hover{
+    background-color: rgb(0, 102, 255); /*cor de destaque do botão*/
+}
+/* aqui começa a sessão de sobre nós - crtl e ; para comentar e descomenta */
+.sobre-section{
+    background-color:rgb(196, 220, 252);
+    padding: 50px 20px;
+    text-align: center;
+}
+.sobre-section h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.sobre-section p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    line-height: 1.5;
+
+}

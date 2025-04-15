@@ -132,6 +132,7 @@ font-size: 30px;
 #contato h2{
     font-size:30px;
     margin-bottom: 20px;
+    text-align: center;
 }
 .contato-form{
     max-width: 500px;
@@ -162,8 +163,8 @@ font-size: 30px;
     background-color: #2563EB;
 }
 .rodape{
-    background-color: brown;
+    background-color:#2563EB ;
     color: white;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }

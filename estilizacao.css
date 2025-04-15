@@ -1,0 +1,30 @@
+body{
+    color: black;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    color: red;
+    padding: 5px;
+    background-color:beige;  
+}
+
+.Bradesco p {
+    background-color: rgb(126, 8, 8);
+    padding: 10px;
+    border-radius: 5px;
+    text-align:center;
+    color: white;
+    font-size: 18px;
+
+}
+.Bradesco h2{
+    text-align: center;
+}
+.imag{
+    display: flex;
+    justify-content: center;
+  
+
+}
